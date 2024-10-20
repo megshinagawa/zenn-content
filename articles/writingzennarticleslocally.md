@@ -2,7 +2,7 @@
 title: "【Zenn初心者向け】Zennの記事をローカルで書く方法"
 emoji: "🔰"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [Zenn, Git, Nodejs]
+topics: [Zenn, Git, GitHub, Nodejs]
 published: true
 ---
 
