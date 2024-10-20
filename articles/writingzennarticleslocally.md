@@ -1,9 +1,9 @@
 ---
-title: "Zennの記事をローカルで書く方法"
-emoji: "👾"
+title: "【Zenn初心者向け】Zennの記事をローカルで書く方法"
+emoji: "🔰"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Zenn, Git, Nodejs]
-published: false
+published: true
 ---
 
 ## ゴール
@@ -116,11 +116,9 @@ npx zenn preview
 ### その他
 @[card](https://zenn.dev/zenn/articles/zenn-cli-guide)
 
-## 5. GitHub に変更をプッシュする
+## まとめ
 
-```bash
-git status
-git add . 
-git commit -m"コミットメッセージ"
-git push
-```
+これでセットアップは完了です！
+これから新規記事を作成したい時はコマンドを入れて、自分の好きなコード・テキストエディタで編集するだけです！
+
+初めて書いた記事ですが、もし役に立ったと思ったらいいねとフォローお願いします！
