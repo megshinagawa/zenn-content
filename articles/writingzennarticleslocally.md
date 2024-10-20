@@ -1,5 +1,5 @@
 ---
-title: "Zennの記事をローカルで書いてアップする方法"
+title: "Zennの記事をローカルで書く方法"
 emoji: "👾"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Zenn, Git, Nodejs]
@@ -116,5 +116,11 @@ npx zenn preview
 ### その他
 @[card](https://zenn.dev/zenn/articles/zenn-cli-guide)
 
-## 5. 記事を公開する
+## 5. GitHub に変更をプッシュする
 
+```bash
+git status
+git add . 
+git commit -m"コミットメッセージ"
+git push
+```
